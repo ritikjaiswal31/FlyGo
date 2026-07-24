@@ -1,5 +1,5 @@
 -- ============================================================
--- FlyGo - Database Queries
+-- FlyGo - Database Queries  (FlyGo database schema)
 -- ============================================================
 
 -- Create and select database

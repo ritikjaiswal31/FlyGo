@@ -1,3 +1,5 @@
+// FlyGo backend application configuration
+
 package com.flygo.airlines;
 
 import org.springframework.boot.SpringApplication;

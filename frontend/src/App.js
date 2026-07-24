@@ -18,7 +18,7 @@ import AddFlightPage from "./components/admin/AddFlightPage";
 import SpecialRegistration from "./components/admin/SpecialRegistration";
 
 
-
+// FlyGo frontend application
 function App() {
 
   return (
