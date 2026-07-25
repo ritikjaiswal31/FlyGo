@@ -108,9 +108,9 @@ FlyGo is an airline booking and operations platform that enables users to search
 
 <img width="1482" height="1102" alt="Screenshot 2026-07-24 174245" src="https://github.com/user-attachments/assets/5ec58669-1d2a-4d62-ac86-8eb7166ce4fb" />
 
-### 4. User Profile & Booking History
+### 4. Booking History
 
-### Booking History
+### My Bookings
 
 <img width="2560" height="1356" alt="Screenshot 2026-07-24 173516" src="https://github.com/user-attachments/assets/ec5242b1-4802-4c84-89bd-60698ca990f8" />
 
