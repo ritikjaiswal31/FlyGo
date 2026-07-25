@@ -2,7 +2,7 @@
 
 ---
 
-# Project Overview
+## Project Overview
 
 FlyGo is an airline booking and operations platform that enables users to search flights, create bookings, manage passenger details, and track bookings. The application is built using **Spring Boot** for the backend, **React** for the frontend, and **MySQL** for relational data storage. It provides secure **JWT-based authentication** and role-based functionality for customers and administrators, including flight, airport, and booking management, along with automated booking confirmation emails using **Spring Mail**.
 
