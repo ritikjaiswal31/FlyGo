@@ -1,5 +1,4 @@
 package com.flygo.airlines.security;
-
 import com.flygo.airlines.exceptions.CustomAuthenticationEntryPoint;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

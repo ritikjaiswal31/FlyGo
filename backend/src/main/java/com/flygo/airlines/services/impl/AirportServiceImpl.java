@@ -1,6 +1,4 @@
 package com.flygo.airlines.services.impl;
-
-
 import com.flygo.airlines.dtos.AirportDTO;
 import com.flygo.airlines.dtos.Response;
 import com.flygo.airlines.entities.Airport;

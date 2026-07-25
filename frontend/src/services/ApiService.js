@@ -2,7 +2,6 @@ import axios from "axios";
 
 export default class ApiService {
 
-
     static BASE_URL = "http://localhost:8082/api";
 
     static saveToken(token) {

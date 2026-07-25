@@ -1,5 +1,4 @@
 package com.flygo.airlines.controller;
-
 import com.flygo.airlines.dtos.*;
 import com.flygo.airlines.dtos.LoginRequest;
 import com.flygo.airlines.dtos.LoginResponse;

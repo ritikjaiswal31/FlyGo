@@ -3,9 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import ApiService from "../../services/ApiService";
 import { useMessage } from "../common/MessageDisplay";
 
-
-
-
 const AdminDashboardPage = () => {
 
     const { ErrorDisplay, SuccessDisplay, showError, showSuccess } = useMessage();
@@ -15,8 +12,6 @@ const AdminDashboardPage = () => {
     const [flights, setFlights] = useState([]);
     const [airports, setAirports] = useState([]);
     const [loading, setLoading] = useState(true);
-
-
 
     useEffect(() => {
         fetchAllData();

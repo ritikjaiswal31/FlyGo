@@ -1,5 +1,4 @@
 package com.flygo.airlines.entities;
-
 import com.flygo.airlines.enums.BookingStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

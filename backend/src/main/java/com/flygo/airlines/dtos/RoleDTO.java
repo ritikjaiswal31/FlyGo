@@ -1,5 +1,4 @@
 package com.flygo.airlines.dtos;
-
 import jakarta.validation.constraints.NotEmpty;
 import lombok.AllArgsConstructor;
 import lombok.Data;

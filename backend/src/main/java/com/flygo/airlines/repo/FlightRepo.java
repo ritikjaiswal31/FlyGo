@@ -1,5 +1,4 @@
 package com.flygo.airlines.repo;
-
 import com.flygo.airlines.entities.Flight;
 import com.flygo.airlines.enums.FlightStatus;
 import org.springframework.data.jpa.repository.JpaRepository;

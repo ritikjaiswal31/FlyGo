@@ -1,6 +1,4 @@
 package com.flygo.airlines.exceptions;
-
-
 import com.flygo.airlines.dtos.Response;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

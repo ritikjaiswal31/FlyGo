@@ -1,5 +1,4 @@
 package com.flygo.airlines.dtos;
-
 import com.flygo.airlines.enums.FlightStatus;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -17,7 +16,6 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Builder
 public class CreateFlightRequest {
-
     private Long id;
 
     private FlightStatus status;

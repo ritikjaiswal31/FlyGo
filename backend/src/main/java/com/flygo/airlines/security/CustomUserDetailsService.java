@@ -1,5 +1,4 @@
 package com.flygo.airlines.security;
-
 import com.flygo.airlines.entities.User;
 import com.flygo.airlines.exceptions.NotFoundException;
 import com.flygo.airlines.repo.UserRepo;

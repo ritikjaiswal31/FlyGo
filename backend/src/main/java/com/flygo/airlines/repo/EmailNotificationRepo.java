@@ -1,5 +1,4 @@
 package com.flygo.airlines.repo;
-
 import com.flygo.airlines.entities.EmailNotification;
 import org.springframework.data.jpa.repository.JpaRepository;
 

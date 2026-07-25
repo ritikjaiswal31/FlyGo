@@ -3,7 +3,6 @@ import ApiService from "./ApiService";
 
 export const RouteGuard = ({ element: Component, allowedRoles }) => {
     const location = useLocation();
-
     let hasRequiredRole = false;
 
     if (!allowedRoles || allowedRoles.length === 0) {
@@ -19,11 +18,9 @@ export const RouteGuard = ({ element: Component, allowedRoles }) => {
             } else if (role === 'CUSTOMER') {
                 return ApiService.isCustomer();
             }
-
             return false;
         });
     }
-
     // If the user has the required role(s), render the component
     if (hasRequiredRole) {
         return Component;

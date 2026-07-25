@@ -1,5 +1,4 @@
 package com.flygo.airlines.security;
-
 import com.flygo.airlines.entities.User;
 import lombok.Builder;
 import lombok.Data;

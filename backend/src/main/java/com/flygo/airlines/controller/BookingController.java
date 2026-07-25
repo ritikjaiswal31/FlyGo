@@ -1,6 +1,4 @@
 package com.flygo.airlines.controller;
-
-
 import com.flygo.airlines.dtos.BookingDTO;
 import com.flygo.airlines.dtos.CreateBookingRequest;
 import com.flygo.airlines.dtos.Response;

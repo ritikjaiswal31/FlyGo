@@ -1,5 +1,4 @@
 package com.flygo.airlines.entities;
-
 import com.flygo.airlines.enums.City;
 import com.flygo.airlines.enums.Country;
 import jakarta.persistence.*;

@@ -1,5 +1,4 @@
 package com.flygo.airlines.security;
-
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import jakarta.annotation.PostConstruct;

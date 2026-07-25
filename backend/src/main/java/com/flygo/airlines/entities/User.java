@@ -1,6 +1,4 @@
 package com.flygo.airlines.entities;
-
-
 import com.flygo.airlines.enums.AuthMethod;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Navbar Styles */
+/* Navbar */
 .nb {
     background-color: #0d1440;
     color: white;
@@ -20,7 +20,6 @@ body {
 
     font-family: Arial, sans-serif;
 }
-
 .nb-container {
     max-width: 1200px;
     margin: 0 auto;

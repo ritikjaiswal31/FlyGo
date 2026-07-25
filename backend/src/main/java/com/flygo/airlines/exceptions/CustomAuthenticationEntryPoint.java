@@ -1,5 +1,4 @@
 package com.flygo.airlines.exceptions;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.flygo.airlines.dtos.Response;
 import jakarta.servlet.ServletException;

@@ -1,6 +1,4 @@
 package com.flygo.airlines.security;
-
-
 import com.flygo.airlines.exceptions.CustomAccessDenialHandler;
 import com.flygo.airlines.exceptions.CustomAuthenticationEntryPoint;
 import lombok.RequiredArgsConstructor;

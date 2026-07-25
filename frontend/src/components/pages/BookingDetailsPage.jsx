@@ -3,7 +3,6 @@ import { useParams, Link } from "react-router-dom";
 import ApiService from "../../services/ApiService";
 import { useMessage } from "../common/MessageDisplay";
 
-
 const BookingDetailsPage = () => {
 
     const { id } = useParams();
@@ -11,12 +10,9 @@ const BookingDetailsPage = () => {
     const [booking, setBooking] = useState(null);
     const [loading, setLoading] = useState(true);
 
-
-
     useEffect(() => {
         fetchBookingDetails();
     }, [id]);
-
 
     const fetchBookingDetails = async () => {
         try {
@@ -29,8 +25,6 @@ const BookingDetailsPage = () => {
         }
     };
 
-
-
     const formatDate = (dateTime) => {
         return new Date(dateTime).toLocaleDateString([], {
             year: 'numeric',
@@ -40,7 +34,6 @@ const BookingDetailsPage = () => {
             minute: '2-digit'
         });
     };
-
 
     const calculateTotalPrice = () => {
         if (!booking || !booking.flight) return 0;
@@ -55,7 +48,6 @@ const BookingDetailsPage = () => {
         }, 0);
     };
 
-
     if (loading) return <div className="booking-details-loading">Loading booking details...</div>;
     if (!booking) return <div className="booking-details-error">Booking not found</div>;
 
@@ -66,8 +58,6 @@ const BookingDetailsPage = () => {
                 <SuccessDisplay />
 
                 <h2 className="booking-details-title">Booking Details</h2>
-
-
                 <div className="booking-details-summary">
                     <div className="booking-details-flight-info">
                         <div className="booking-details-flight-number">
@@ -86,8 +76,6 @@ const BookingDetailsPage = () => {
                         ₹{calculateTotalPrice().toFixed(2)}
                     </div>
                 </div>
-
-
                 <div className="booking-details-info-section">
                     <div className="booking-details-info-card">
                         <h3 className="booking-details-subtitle">Booking Information</h3>
@@ -106,8 +94,6 @@ const BookingDetailsPage = () => {
                             </span>
                         </div>
                     </div>
-
-
 
                     <div className="booking-details-flight-card">
                         <h3 className="booking-details-subtitle">Flight Details</h3>

@@ -1,9 +1,7 @@
-
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import ApiService from "../../services/ApiService";
 import { useMessage } from "../common/MessageDisplay";
-
 
 const AddFlightPage = () => {
 

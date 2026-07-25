@@ -1,5 +1,4 @@
 package com.flygo.airlines.dtos;
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.flygo.airlines.enums.AuthMethod;
 import lombok.AllArgsConstructor;

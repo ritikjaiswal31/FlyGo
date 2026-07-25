@@ -1,5 +1,4 @@
 package com.flygo.airlines.dtos;
-
 import com.flygo.airlines.enums.PassengerType;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

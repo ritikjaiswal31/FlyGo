@@ -3,9 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import ApiService from "../../services/ApiService";
 import { useMessage } from "../common/MessageDisplay";
 
-
 const AdminBookingDetailsPage = () => {
-
 
     const { id } = useParams();
     const { ErrorDisplay, SuccessDisplay, showError, showSuccess } = useMessage();

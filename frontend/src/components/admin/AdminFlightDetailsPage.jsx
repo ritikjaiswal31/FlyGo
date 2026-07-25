@@ -3,11 +3,9 @@ import { useParams, useNavigate, Link } from "react-router-dom";
 import ApiService from "../../services/ApiService";
 import { useMessage } from "../common/MessageDisplay";
 
-
 const AdminFlightDetailsPage = () => {
 
     const { id } = useParams();
-
     const { ErrorDisplay, SuccessDisplay, showError, showSuccess } = useMessage();
     const navigate = useNavigate();
     const [flight, setFlight] = useState(null);

@@ -1,32 +1,22 @@
-
 import { useState, useEffect } from "react";
 import { useNavigate, Link, useLocation } from "react-router-dom";
 import ApiService from "../../services/ApiService";
 import { useMessage } from "../common/MessageDisplay";
 
-
-
 const FindFlightsPage = () => {
-
-
     const { ErrorDisplay, SuccessDisplay, showError } = useMessage();
 
     const [flights, setFlights] = useState([]);
     const [airports, setAirports] = useState([]);
     const [loading, setLoading] = useState(true);
-
-
     const location = useLocation();
     const navigate = useNavigate();
-
 
     const [searchParams, setSearchParams] = useState({
         departureIataCode: "",
         arrivalIataCode: "",
         departureDate: ""
     });
-
-
     // Fetch all airports on component mount
     useEffect(() => {
         const fetchAirports = async () => {
@@ -39,8 +29,6 @@ const FindFlightsPage = () => {
         };
         fetchAirports();
     }, []);
-
-
 
     useEffect(() => {
 

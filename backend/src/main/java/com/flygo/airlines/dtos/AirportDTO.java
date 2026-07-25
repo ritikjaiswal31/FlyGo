@@ -1,6 +1,4 @@
 package com.flygo.airlines.dtos;
-
-
 import com.flygo.airlines.enums.City;
 import com.flygo.airlines.enums.Country;
 import jakarta.validation.constraints.NotBlank;

@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import ApiService from "../../services/ApiService";
 import { useMessage } from "../common/MessageDisplay";
 
-
-
 const ProfilePage = () => {
 
     const { ErrorDisplay, showError } = useMessage();

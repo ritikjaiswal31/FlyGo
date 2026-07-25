@@ -71,9 +71,7 @@ const AddEditAirportPage = () => {
         }
     };
 
-
     if (loading) return <div className="airport-form-loading">Loading...</div>;
-
 
     return (
         <div className="airport-form-container">

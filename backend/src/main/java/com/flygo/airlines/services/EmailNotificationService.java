@@ -1,5 +1,4 @@
 package com.flygo.airlines.services;
-
 import com.flygo.airlines.entities.Booking;
 import com.flygo.airlines.entities.User;
 

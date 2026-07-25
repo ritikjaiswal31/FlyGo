@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import ApiService from "../../services/ApiService";
@@ -16,7 +15,6 @@ const HomePage = () => {
         departureDate: ""
     });
 
-    // Fetch all airports on component mount
     useEffect(() => {
         const fetchAirports = async () => {
             try {

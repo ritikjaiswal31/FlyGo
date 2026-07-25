@@ -3,10 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import ApiService from '../../services/ApiService';
 import { useMessage } from "../common/MessageDisplay";
 
-
 const SpecialRegistration = () => {
 
-    // Use the error hook
     const { ErrorDisplay, SuccessDisplay, showError, showSuccess } = useMessage();
     const navigate = useNavigate();
 

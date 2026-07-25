@@ -1,6 +1,4 @@
 package com.flygo.airlines.controller;
-
-
 import com.flygo.airlines.dtos.Response;
 import com.flygo.airlines.dtos.RoleDTO;
 import com.flygo.airlines.services.RoleService;

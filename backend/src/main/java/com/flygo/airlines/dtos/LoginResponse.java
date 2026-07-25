@@ -1,5 +1,4 @@
 package com.flygo.airlines.dtos;
-
 import lombok.Data;
 
 import java.util.List;

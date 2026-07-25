@@ -3,14 +3,10 @@ import { useMessage } from "../common/MessageDisplay"
 import { useState } from "react";
 import ApiService from "../../services/ApiService"
 
-
-
 const RegisterPage = () => {
 
     const { ErrorDisplay, SuccessDisplay, showError, showSuccess } = useMessage();
     const navigate = useNavigate();
-
-
     const [formData, setFormData] = useState({
         name: '',
         email: '',

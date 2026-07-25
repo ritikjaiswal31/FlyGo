@@ -1,5 +1,4 @@
 package com.flygo.airlines.enums;
-
 import lombok.Getter;
 
 @Getter

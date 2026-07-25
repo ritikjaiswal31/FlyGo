@@ -1,6 +1,4 @@
 package com.flygo.airlines.entities;
-
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

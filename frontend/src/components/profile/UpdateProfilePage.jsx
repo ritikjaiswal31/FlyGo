@@ -2,10 +2,7 @@ import { useState, useEffect, use } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import ApiService from "../../services/ApiService";
 import { useMessage } from "../common/MessageDisplay";
-
-
 const UpdateProfilePage = () => {
-
 
     const { ErrorDisplay, SuccessDisplay, showError, showSuccess } = useMessage();
     const [loading, setLoading] = useState(true);
