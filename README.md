@@ -1,5 +1,7 @@
 ## FlyGo ✈️
 
+---
+
 ### Airline Booking and Operations Platform
 
 ---
@@ -12,15 +14,11 @@ FlyGo is a full-stack airline reservation and management system that enables use
 
 ### Real-World Use Case
 
-* FlyGo provides a centralized platform for customers to search available flights, create reservations, manage passenger information, and track their bookings.
+* FlyGo provides a centralized platform for customers to search available flights, create reservations with passenger details, track their bookings, and receive booking confirmation emails.
 
-* Customers can view flight schedules and routes, complete flight bookings, access booking history, and receive booking confirmation emails.
-
-* Administrators can manage flights, airports, and customer bookings through a dedicated Admin Dashboard.
+* Administrators can manage airports, flights, and customer bookings through a dedicated Admin Dashboard, providing centralized control over airline booking operations.
 
 * Flight operations can be tracked using statuses such as **SCHEDULED, DELAYED, CANCELLED, DEPARTED, and ARRIVED**, while administrators can also update booking statuses.
-
-* The system demonstrates a real-world airline reservation workflow by connecting customer booking operations, administrative management, and persistent relational data within a single application.
 
 ---
 
