@@ -120,7 +120,7 @@ FlyGo is an airline booking and operations platform that enables users to search
 
 ### 5. Admin Operations
 
-#### Admin Dashboard
+### Admin Dashboard
 
 <img width="2560" height="1480" alt="Screenshot 2026-07-24 175613" src="https://github.com/user-attachments/assets/c3ee0540-f119-46de-8910-f7d98e86791b" />
 
