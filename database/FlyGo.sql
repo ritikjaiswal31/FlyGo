@@ -1,6 +1,6 @@
--- ============================================================
--- FlyGo - Database Queries  (FlyGo database schema)
--- ============================================================
+-- ====================================
+-- FlyGo - Database Queries and Schema
+-- ====================================
 
 -- Create and select database
 CREATE DATABASE flygo;
@@ -16,9 +16,9 @@ INSERT INTO users_roles (user_id, role_id) VALUES (1, 1); -- ADMIN
 INSERT INTO users_roles (user_id, role_id) VALUES (1, 2); -- CUSTOMER
 INSERT INTO users_roles (user_id, role_id) VALUES (1, 3); -- PILOT
 
--- ============================================================
+-- ========================
 -- Implementation Queries
--- ============================================================
+-- ========================
 -- 1. Airports
 SELECT
     id AS airport_id,
